@@ -12,7 +12,7 @@ For this exercise we're going to create our own npm package that will print out 
 
 3. Once you've signed up, type in `npm init` to create a `package.json` file. The only two required fields are `name` and `version`
     * The package name should be something like `yourname-resume` (You have to pick a name that hasn't been taken - you can search npm's site to see what's available)
-    * Version should follow this format `x.x.x` (I recommend putting `1.0.0`)
+    * Version should follow this format `x.x.x` (I recommend putting `1.0.0`).
     * For `test_command` and `entry_point` you can just hit enter. 
     * For `license`, you can use `ISC`
     * Fill in the rest fields the best you can. It's ok if you don't know what to put. You can just hit enter, and you can always edit everything later. 
@@ -54,7 +54,7 @@ fs.readFile(__dirname + '/info.json', 'utf8', function(err, data) {
 7. Next add the following to your package.json file. We're adding in a command that someone who's downloaded your npm file can run to display your resume. 
 ```json
 "bin": {
-    "your-command-here": "./index.js"
+    "resume-me": "./index.js"
   },
 ```
 
@@ -92,7 +92,7 @@ You can use my resume as a guide. Yours can be shorter, or sillier, whatever you
 }
 ```
 
-9. Update your `readme` to be a short description about what you've made
+9. Update your `readme` to be a short description about what you've made.
 
 10. git init, add, and commit.
     * Then create a new github repository
@@ -103,7 +103,7 @@ You can use my resume as a guide. Yours can be shorter, or sillier, whatever you
     * You should be able to see your site and your readme on the npmjs site under your profile.
     > To update you can just call npm publish again, but you first need to change the version number!
 
-12. To test that everything worked, change into a different directory and run `npm i -g name-of-project`. Then run `your-command-here`
+12. To test that everything worked, change into a different directory and run `npm i -g name-of-project`. Then run `resume-me`
     * You can also download eachother's npm resumes and print them out!
 
 ## 🌟BONUS!🌟
