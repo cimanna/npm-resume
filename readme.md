@@ -11,7 +11,7 @@ For this exercise we're going to create our own npm package that will print out 
     * Lastly you will also need to verify your email account.
 
 3. Once you've signed up, type in `npm init` to create a `package.json` file. The only two required fields are `name` and `version`
-    * The package name should be something like `yourname-resume` (You have to pick a name that hasn't been taken - you can search npm's site to see what's available)
+    * The package name should be something like `yourusername-resume` (so if your GitHub username is `expertcoder` then it should be `expertcoder-resume`).
     * Version should follow this format `x.x.x` (I recommend putting `1.0.0`).
     * For `test_command` and `entry_point` you can just hit enter. 
     * For `license`, you can use `ISC`
