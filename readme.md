@@ -8,10 +8,10 @@ For this exercise we're going to create our own npm package that will print out 
 2. In order to publish anything to npm, we have to **sign up/login with npm**.  
     * You can type `npm whoami` to see if npm recognizes you as logged in. (Most likely you are not) 
     * To sign up, you can type `npm login` and choose a name and password. You can also do this through their site [npmjs](https://www.npmjs.com/). 
-    * Lastly you will also need to verify your email account.
+    * Lastly you will also need to verify your email account. __If you do not verify your account and log in to the NPM website, you will get a 403 error later down the line__.
 
 3. Once you've signed up, type in `npm init` to create a `package.json` file. The only two required fields are `name` and `version`
-    * The package name should be something like `yourname-resume` (You have to pick a name that hasn't been taken - you can search npm's site to see what's available)
+    * The package name should be something like `yourusername-resume` (so if your GitHub username is `expertcoder` then it should be `expertcoder-resume`).
     * Version should follow this format `x.x.x` (I recommend putting `1.0.0`).
     * For `test_command` and `entry_point` you can just hit enter. 
     * For `license`, you can use `ISC`
