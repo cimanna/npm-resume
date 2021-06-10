@@ -52,7 +52,7 @@ fs.readFile(__dirname + '/info.json', 'utf8', function(err, data) {
     * a callback function 
         * if there is an error getting the file, print the error, else, print out and return the content.  
 
-7. Next add the following to your package.json file. We're adding in a command that someone who's downloaded your npm file can run to display your resume. 
+7. Next add the following to your package.json file, within the existing object. We're adding in a command that someone who's downloaded your npm file can run to display your resume. **This should be within the existing object.**
 ```json
 "bin": {
     "resume-me": "./index.js"
@@ -104,8 +104,8 @@ You can use my resume as a guide. Yours can be shorter, or sillier, whatever you
     * You should be able to see your site and your readme on the npmjs site under your profile.
     > To update you can just call npm publish again, but you first need to change the version number!
 
-12. To test that everything worked, change into a different directory and run `npm i -g name-of-project`. Then run `resume-me`
-    * You can also download eachother's npm resumes and print them out!
+12. To test that everything worked, change into a different directory and run `npx name-of-project`.
+    * You can also download each other's npm resumes and print them out!
 
 ## 🌟BONUS!🌟
 
