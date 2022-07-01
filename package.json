@@ -1,3 +1,6 @@
+
+
+
 {
   "name": "cimanna-resume",
   "version": "1.0.0",
@@ -13,6 +16,6 @@
   "author": "Christine Manna",
   "license": "ISC",
   "bin": {
-    "cimanna-resume": "./index.js"
+    "resume-me": "./index.js"
   },
 }
