@@ -1,8 +1,5 @@
-
-
-
 {
-  "name": "cimanna-resume",
+  "name": "npm-resume",
   "version": "1.0.0",
   "description": "NPM resume lab",
   "main": "index.js",
@@ -18,4 +15,7 @@
   "bin": {
     "resume-me": "./index.js"
   },
+  "dependencies": {
+    "lodash": "^4.17.21"
+  }
 }
