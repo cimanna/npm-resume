@@ -1,5 +1,5 @@
 {
-  "name": "npm-resume",
+  "name": "@cimanna/npm-resume",
   "version": "1.0.0",
   "description": "NPM resume lab",
   "main": "index.js",
